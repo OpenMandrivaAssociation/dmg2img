@@ -1,6 +1,8 @@
+%define _disable_lto 1
+
 Summary:	Uncompress the Apple compressed disk image files
 Name:		dmg2img
-Version:	1.6.2
+Version:	1.6.5
 Release:	1       
 # dmg2img is GPL without specific version
 # vfdecrypt is MIT licensed
