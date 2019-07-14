@@ -2,14 +2,15 @@
 
 Summary:	Uncompress the Apple compressed disk image files
 Name:		dmg2img
-Version:	1.6.5
-Release:	1       
+Version:	1.6.7
+Release:	1
 # dmg2img is GPL without specific version
 # vfdecrypt is MIT licensed
 License:	GPLv+ and MIT
 Group:		File tools
 Source0:	http://vu1tur.eu.org/tools/%{name}-%{version}.tar.gz
 Patch0:		dmg2img-1.6.2-nostrip.patch
+Patch1:		dmg2img-1.6.7-openssl11.patch
 URL:		http://vu1tur.eu.org/tools/
 BuildRequires:	bzip2-devel
 BuildRequires:	openssl-devel
@@ -21,7 +22,7 @@ files into plain disk or filesystem images.
 
 %prep
 %setup -q
-%patch0 -p1
+%autopatch -p1
 
 
 %build
