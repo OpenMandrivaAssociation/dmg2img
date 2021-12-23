@@ -13,7 +13,7 @@ Patch0:		dmg2img-1.6.2-nostrip.patch
 Patch1:		dmg2img-1.6.7-openssl11.patch
 URL:		http://vu1tur.eu.org/tools/
 BuildRequires:	bzip2-devel
-BuildRequires:	openssl-devel
+BuildRequires:	pkgconfig(openssl)
 BuildRequires:	zlib-devel
 
 %description
