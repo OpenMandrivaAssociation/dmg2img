@@ -3,7 +3,7 @@
 Summary:	Uncompress the Apple compressed disk image files
 Name:		dmg2img
 Version:	1.6.7
-Release:	1
+Release:	2
 # dmg2img is GPL without specific version
 # vfdecrypt is MIT licensed
 License:	GPLv+ and MIT
